@@ -1,0 +1,21 @@
+{
+    "name": "delphiki/toggl-plan-client",
+    "description": "A simple PHP client for the Toggl Plan API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Delphiki\\TogglPlan\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "delphiki",
+            "email": "delphiki@protonmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4",
+        "ext-json": "*"
+    }
+}
